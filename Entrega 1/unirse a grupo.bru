@@ -1,0 +1,22 @@
+meta {
+  name: unirse a grupo
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://jhhqwn3twg.execute-api.us-east-1.amazonaws.com/prod//groups/01JC1E8B7X5G04A71PQWDNHR9K/join
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pY2hlbGxlLm5vdmluQHVjLmNsIiwiaWF0IjoxNzMwOTE5MTE1LCJleHAiOjE3MzA5MjI3MTV9.rqSuEWt9GU_SWHRLIQ1Sr7bQoFk7xeFdPvmjHqHUqYg
+}
+
+body:json {
+  {
+    "name": "Michelle Novion",
+    "githubUsername": "Mixelshake"
+  }
+}
